@@ -4,3 +4,23 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+
+}
+
+/* utils */
+
+.bg-aqua {
+	background-color: aquamarine;
+}
+
+/* header */
+
+header {
+	padding: 10px 5px;
+}
+
+.container {
+	position: fixed;
+}
