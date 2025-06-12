@@ -59,6 +59,10 @@ body {
   width: 60%;
 }
 
+.h-500 {
+  height: 500px;
+}
+
 .bg-cadetblue {
   background-color: cadetblue;
 }
@@ -69,6 +73,10 @@ body {
 
 .text-white {
   color: white;
+}
+
+.border-black {
+  border: 1px solid black;
 }
 
 /* header */
@@ -165,10 +173,27 @@ h3 {
   font-size: 50px;
 }
 
+.col-33 {
+  width: calc(100% / 3);
+}
+
+.plan-type {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+
+/* lists */
+
+ul {
+  list-style: none;
+}
+
 /* checkbox */
 
 .checkbox-container p{
   margin-right: 50px;
+  margin-bottom: 50px;
 }
 
 .checkbox-on{
