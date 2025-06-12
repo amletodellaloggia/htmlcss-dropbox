@@ -101,7 +101,10 @@ main {
 
 
 .col-33 {
-	width: 33%;
+	width: 25%;
+}
+.col-66 {
+	width: 75%;
 }
 
 .jumbotron {
@@ -109,10 +112,9 @@ main {
 	margin-bottom: 50px;
 }
 
-.jumbo-big-text h1{
-	font-size: 50px;
-	margin-top: 70px;
-	margin-bottom: 50px;
+.jumbo-container{
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 .col-33 p{
@@ -123,13 +125,7 @@ main {
 	margin-bottom: 30px;
 }
 
-
-.jumbo-img-container {
-	width: 66%;
-	position: relative;
-}
-
-.jumbo-img-container img{
-	width: 100%;
+.jumbo-img{
+	max-width: 100%;
 	position: absolute;
 }
