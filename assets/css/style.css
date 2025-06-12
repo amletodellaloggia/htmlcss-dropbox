@@ -42,9 +42,9 @@ body {
 /* header */
 
 header {
-	width: 1200px;
-	position: fixed;
+	width: 100%;
 	padding: 20px;
+	z-index: 1;
 }
 
 .container {
@@ -63,4 +63,10 @@ header {
 .header-button-blue {
 	background-color: #0061FE;
 	padding: 5px 15px;
+}
+
+/* main */
+
+main {
+	width: 100%
 }
