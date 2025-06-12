@@ -9,7 +9,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+hr {
+  width: 20%;
+  margin-left: 25px;
+}
+
 /* utils */
+
 
 .display-flex {
   display: flex;
@@ -73,6 +79,10 @@ body {
 
 .text-white {
   color: white;
+}
+
+.text-bold {
+  font-weight: bold;
 }
 
 .border-black {
@@ -173,8 +183,20 @@ h3 {
   font-size: 50px;
 }
 
+
+
 .col-33 {
   width: calc(100% / 3);
+  /* width: fit-content; */
+}
+
+.col-33-bottom p, ul, h2, hr{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#fit-content {
+  width: fit-content;
 }
 
 .plan-type {
@@ -186,7 +208,11 @@ h3 {
 /* lists */
 
 ul {
-  list-style: none;
+  list-style: none; 
+}
+
+#solid-check {
+  color: #0061fe;
 }
 
 /* checkbox */
@@ -211,4 +237,3 @@ ul {
   border-radius: 50%;
   margin-right: 5px;
 }
-
