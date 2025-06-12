@@ -104,6 +104,10 @@ main {
 	width: 33%;
 }
 
+.jumbotron {
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+}
 
 .jumbo-big-text h1{
 	font-size: 50px;
@@ -118,6 +122,7 @@ main {
 .col-33 span{
 	margin-bottom: 30px;
 }
+
 
 .jumbo-img-container {
 	width: 66%;
