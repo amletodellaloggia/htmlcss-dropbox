@@ -15,8 +15,16 @@ body {
 	display: flex;
 }
 
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
 .justify-content-space-between {
 	justify-content: space-between;
+}
+
+.justify-content-center {
+	justify-content: center;
 }
 
 .align-items-center {
@@ -60,7 +68,7 @@ header {
 	padding-bottom: 3px;
 }
 
-.header-button-blue {
+.button-blue {
 	background-color: #0061FE;
 	padding: 5px 15px;
 }
@@ -69,4 +77,8 @@ header {
 
 main {
 	width: 100%
+}
+
+.jumbotron {
+	width: 100%;
 }
