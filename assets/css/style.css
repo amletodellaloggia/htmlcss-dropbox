@@ -53,7 +53,7 @@ header {
 }
 
 .header-left, .header-right {
-	gap: 10px;
+	gap: 25px;
 }
 
 .logo-small {
