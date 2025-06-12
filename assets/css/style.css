@@ -23,6 +23,10 @@ body {
 	flex-wrap: wrap;
 }
 
+.flex-wrap-no {
+	flex-wrap: nowrap;
+}
+
 .justify-content-space-between {
 	justify-content: space-between;
 }
@@ -76,8 +80,6 @@ header {
 	padding: 5px 10px;
 }
 
-
-
 .header-left, .header-right {
 	gap: 25px;
 }
@@ -97,25 +99,32 @@ main {
 	width: 100%
 }
 
-.jumbotron {
-
-}
-
-.jumbo-container {
-
-}
 
 .col-33 {
 	width: 33%;
 }
 
-.jumbo-img {
-	position: absolute;
-}
-
 
 .jumbo-big-text h1{
-	font-size: 70px;
-	padding-top: 70px;
-	padding-bottom: 25px;
+	font-size: 50px;
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+.col-33 p{
+	margin-bottom: 30px;
+}
+
+.col-33 span{
+	margin-bottom: 30px;
+}
+
+.jumbo-img-container {
+	width: 66%;
+	position: relative;
+}
+
+.jumbo-img-container img{
+	width: 100%;
+	position: absolute;
 }
