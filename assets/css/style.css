@@ -11,6 +11,26 @@ body {
 
 /* utils */
 
+.display-flex {
+	display: flex;
+}
+
+.justify-content-space-between {
+	justify-content: space-between;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.bg-cadetblue {
+	background-color: cadetblue;
+}
+
 .bg-aqua {
 	background-color: aquamarine;
 }
@@ -18,9 +38,13 @@ body {
 /* header */
 
 header {
-	padding: 10px 5px;
+	width: 1200px;
+	position: fixed;
 }
 
 .container {
-	position: fixed;
+	padding: 5px 10px;
+}
+
+.logo-small {
 }
