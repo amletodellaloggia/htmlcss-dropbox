@@ -89,6 +89,10 @@ hr {
   border: 1px solid black;
 }
 
+.border-gray {
+  border: 1px solid #D0CFD3;
+}
+
 /* header */
 
 header {
@@ -183,16 +187,17 @@ h3 {
   font-size: 50px;
 }
 
+.row {
+  gap: 40px;
+}
 
 
 .col-33 {
   width: calc(100% / 3);
-  /* width: fit-content; */
 }
 
 .col-33-bottom p, ul, h2, hr{
-  margin-top: 20px;
-  margin-left: 20px;
+  margin: 30px 20px;
 }
 
 #fit-content {
@@ -202,7 +207,7 @@ h3 {
 .plan-type {
   text-align: center;
   padding: 15px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #D0CFD3;
 }
 
 /* lists */
