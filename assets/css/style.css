@@ -76,6 +76,10 @@ hr {
   height: 500px;
 }
 
+.margin-30-20 {
+margin: 30px 20px;
+}
+
 .bg-cadetblue {
   background-color: cadetblue;
 }
@@ -140,6 +144,8 @@ main {
 
 .col-35 {
   width: 35%;
+      margin-bottom: auto;
+    margin-top: auto;
 }
 
 .col-35 i {
@@ -210,7 +216,11 @@ h3 {
   width: calc(100% / 3);
 }
 
-.col-33-bottom p, ul, h2, hr{
+.col-33-bottom p, ul, hr{
+  margin: 30px 20px;
+}
+
+.col-33-bottom h2{
   margin: 30px 20px;
 }
 
