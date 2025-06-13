@@ -16,6 +16,7 @@ hr {
 
 /* utils */
 
+
 .ml-0{
   margin-left: 0;
 }
@@ -244,6 +245,7 @@ h3 {
 
 .col-20 {
   width: calc(100% / 6);
+  line-height: 2;
 }
 
 
