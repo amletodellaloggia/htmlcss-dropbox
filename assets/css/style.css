@@ -20,7 +20,15 @@ hr {
 .gap-30 {
   gap: 30px;
 }
-
+.gap-40 {
+  gap: 40px;
+}
+.gap-60 {
+  gap: 60px;
+}
+#pb-20{
+  padding-bottom: 20px;
+}
 
 img {
   max-width: 100%;
@@ -218,7 +226,7 @@ h3 {
 }
 
 .col-33 {
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 30px);
 }
 
 .col-33-bottom p, ul, hr{
