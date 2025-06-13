@@ -16,7 +16,9 @@ hr {
 
 /* utils */
 
-
+.ml-0{
+  margin-left: 0;
+}
 .gap-30 {
   gap: 30px;
 }
@@ -104,6 +106,9 @@ margin: 30px 20px;
 .bg-gold {
   background-color: goldenrod;
 }
+.bg-black {
+  background-color: black;
+}
 
 .text-white {
   color: white;
@@ -176,12 +181,12 @@ main {
 }
 
 .jumbotron-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 .section-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
