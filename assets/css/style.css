@@ -16,8 +16,14 @@ hr {
 
 /* utils */
 
-.img {
-  width: 100%;
+
+.gap-30 {
+  gap: 30px;
+}
+
+
+img {
+  max-width: 100%;
 }
 
 .display-flex {
@@ -144,8 +150,8 @@ main {
 
 .col-35 {
   width: 35%;
-      margin-bottom: auto;
-    margin-top: auto;
+  margin-bottom: auto;
+  margin-top: auto;
 }
 
 .col-35 i {
@@ -153,7 +159,7 @@ main {
 }
 
 .col-65 {
-  width: 65%;
+  max-width: 65%;
 }
 
 .jumbotron {
@@ -162,12 +168,12 @@ main {
 }
 
 .jumbotron-container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .section-container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -204,7 +210,6 @@ h3 {
 }
 
 .row {
-  gap: 40px;
 }
 
 .col-100 {
@@ -223,6 +228,11 @@ h3 {
 .col-33-bottom h2{
   margin: 30px 20px;
 }
+
+.col-20 {
+  width: calc(100% / 6);
+}
+
 
 #fit-content {
   width: fit-content;
